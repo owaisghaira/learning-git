@@ -216,3 +216,14 @@
        right: 30px;
        background-color: #dedfe1;
    }
+   ul li a{
+    padding: 12px !important
+     
+}
+ul li a:hover{
+    
+    background-color:#316DC3;
+    border-radius: 20px;
+    color: #ffffff !important
+
+}
