@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <header>
+    
         <!-- <div class=" topbar container-fluid ">
             <div class="container flex">
                 <div class="icon marg">
@@ -62,7 +62,7 @@
             </div>
         </div>
 
-        <!-- <div class="logo-bar">
+        <!-- <div class="logo-bar position">
             <div class="container">
                 <div class="logo">
                     <img width="220px" src="images/Saylani-logo.png" alt="">
@@ -81,26 +81,26 @@
             </div>
 
         </div> -->
-        <div class="container-fluid navbar-light bg-light">
+        <div class="container-fluid navbar-light bg-light sticky-top position:relative">
             <div class="container">
 
-                <nav class="navbar navbar-expand-lg ">
+                <nav class="navbar navbar-expand-lg">
                     <a class="navbar-brand" href="#"><img width="200px" src="images/Saylani-logo.png" alt="logo"></a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-                        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <button class="navbar-toggler dropbtn" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                        aria-controls="navbarNavDropdown"  aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                        <ul class="navbar-nav ml-auto ">
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown" >
+                        <ul class="navbar-nav ml-auto  ">
                             <li class="nav-item active">
-                                <a class="nav-link " href="#">Home <span class="sr-only">(current)</span></a>
+                                <a class="nav-link home-over " href="#">Home <span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
                                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     About
                                 </a>
-                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <div class="dropdown-menu dropdown-content" aria-labelledby="navbarDropdownMenuLink">
 
                                     <a class="dropdown-item" href="#">Introduction</a>
                                     <a class="dropdown-item" href="#">Chairman Message</a>
@@ -112,7 +112,7 @@
                                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     Sylani Services
                                 </a>
-                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <div class="dropdown-menu  dropdown-content" aria-labelledby="navbarDropdownMenuLink">
 
                                     <a class="dropdown-item" href="#">Education</a>
                                     <a class="dropdown-item" href="#">Medical</a>
@@ -124,7 +124,7 @@
                                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     Future Projects
                                 </a>
-                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <div class="dropdown-menu  dropdown-content" aria-labelledby="navbarDropdownMenuLink">
 
                                     <a class="dropdown-item" href="#">Sylani University</a>
                                     <a class="dropdown-item" href="#">Sylani City</a>
@@ -141,7 +141,7 @@
                                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     Donation
                                 </a>
-                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <div class="dropdown-menu  dropdown-content" aria-labelledby="navbarDropdownMenuLink">
 
                                     <a class="dropdown-item" href="#">Bank Detail</a>
                                     <a class="dropdown-item" href="#">Sadqa</a>
@@ -182,7 +182,7 @@
         </div>
 
         <!-- slider end -->
-    </header>
+    
     <div class="container marq">
         <marquee behavior="" direction=" " onmouseover="this.stop()" onmouseout="this.start()">
             <p>
@@ -196,7 +196,9 @@
         <section class="container pt-5">
             <div class=" text-center heading">
                 <h2>Intro<span class="h">duction</span></h2>
+                <hr class="linea"> &nbsp;&nbsp;
                 <img width="40px" src="images/favicon.png" alt="">
+                &nbsp;&nbsp; <hr class="linea"> 
 
             </div>
 
@@ -244,11 +246,11 @@
 
         </section>
     </div>
-
-    <a class="ancher text-center" href="index.html">
-        <i class="fa fa-angle-up"></i>
-    </a>
-
+    
+        <a class="ancher text-center" href="index.html">
+            <i class="fa fa-angle-up"></i>
+        </a>
+    
 
     <!-- intro end -->
     <!-- <section>
@@ -295,7 +297,7 @@
                 </div>
                 <div class="col-xl-3 col-md-3 col-12 py-4">
                     <div>
-                        <img width="40px" src="images/icon_medical_png.png" alt=""> <br>
+                        <img width="40px" src="images/icon_medical_png.png" alt="">  <br>
                         <h1>43,749</h1>
                         <p>Medical<span class="m">(Monthly)</span></p>
                     </div>
@@ -317,7 +319,9 @@
         <div class="container pt-5">
             <div class=" text-center heading mb-5">
                 <h2>WHAT WE <span class="h"> ARE DOING?</span></h2>
+                <hr class="linea"> &nbsp;&nbsp;
                 <img width="40px" src="images/favicon.png" alt="">
+                &nbsp;&nbsp; <hr class="linea">
 
             </div>
             <div class="text-center">
@@ -441,7 +445,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-xl-8 col-md-8 col-12">
-                    <div class="heading mb-5">
+                     <div class="heading mb-5">
                         <h2>MISSION AND UPCOMING PROJECTS</h2>
                         <span class="line"></span>
                     </div>
@@ -449,7 +453,7 @@
                         <div class="col-xl-6 col-md-6 col-12">
                             <div class="inbox p-3">
                                 <img width="40px" height="40px" src="images/Hepatitis.png" alt="">
-                                <span class="pl-3"> Hepatitis </span>
+                              <span class="pl-3">  Hepatitis </span>
                             </div>
 
                         </div>
@@ -457,9 +461,9 @@
                             <div class="inbox p-3">
 
                                 <img width="40px" height="40px" src="images/housing.png" alt="">
-                                <span class="pl-3"> HOUSING SOCIETY </span>
+                               <span class="pl-3"> HOUSING SOCIETY </span>
                             </div>
-
+    
 
                         </div>
                     </div>
@@ -467,7 +471,7 @@
                         <div class="col-xl-6 col-md-6 col-12">
                             <div class="inbox p-3">
                                 <img width="40px" height="40px" src="images//IT.png" alt="">
-                                <span class="p-3"> IT LITERACY </span>
+                               <span class="p-3"> IT LITERACY </span>
                             </div>
 
                         </div>
@@ -475,7 +479,7 @@
                             <div class="inbox p-3">
 
                                 <img width="40px" height="40px" src="images/tharparkar.png" alt="">
-                                <span class="p-3"> THARPARKAR </span>
+                                 <span class="p-3"> THARPARKAR </span>
                             </div>
 
                         </div>
@@ -488,8 +492,7 @@
                         <span class="line"></span>
                     </div>
                     <div>
-                        <marquee height="200" behavior="" scrollamount="2" direction="up" onmouseover="this.stop()"
-                            onmouseout="this.start()">Saylani Welfare Distributing Ration &
+                        <marquee height="200" behavior="" scrollamount="2"  direction="up" onmouseover="this.stop()" onmouseout="this.start()">Saylani Welfare Distributing Ration &
                             Clothes to affected people of Balochistan .
                             More Details Entry Test Accouncement (Graphic Designing & Video Editing/Animation Course) On
                             Sunday 3rd March 2019 @
@@ -513,10 +516,12 @@
 
     <!-- galary start -->
     <section class="mt-5">
-        <div class="container">
+        <div class="container" >
             <div class=" text-center heading">
                 <h2 class="">IMAGE <span class="h"> GALLERY</span></h2>
+                <hr class="linea"> &nbsp;&nbsp;
                 <img width="40px" src="images/favicon.png" alt="">
+                &nbsp;&nbsp; <hr class="linea">
 
             </div>
             <div class="row mt-5 text-center ">
@@ -532,7 +537,7 @@
                 <div class="col-xl-3 col-lg-3 col-12 mb-3">
                     <img width="250" height="150" src="images/food.jpg" alt="">
                 </div>
-
+                
             </div>
 
         </div>
@@ -572,22 +577,22 @@
             </div>
             <div class="col-xl-4 col-md-4 col-12">
                 <h6>Useful Link</h6>
-
-                <hr class="line mb-5">
-
+                
+                <hr class="line mb-5"> 
+                
             </div>
             <div class="col-xl-4 col-md-4 col-12 foot">
                 <h6>Connect With Us</h6>
-
+                
                 <p>
                     <i class="fa fa-facebook" aria-hidden="false"></i>
-
+                    
                     <i class="fa fa-twitter"></i>
                     <i class="fa fa-instagram"></i>
                     <i class="fa fa-youtube"></i>
 
                 </p>
-
+                
             </div>
         </div>
 
